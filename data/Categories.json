@@ -1,0 +1,119 @@
+// categories.json
+[
+  {
+    "id": "agricultural-machinery",
+    "Name": "Agricultural machinery"
+  },
+  {
+    "id": "agriculture",
+    "Name": "Agriculture"
+  },
+  {
+    "id": "chemicals",
+    "Name": "Chemicals"
+  },
+  {
+    "id": "consumer-durables",
+    "Name": "Consumer durables"
+  },
+  {
+    "id": "consumer-goods",
+    "Name": "Consumer goods"
+  },
+  {
+    "id": "electrical-equipment",
+    "Name": "Electrical equipment"
+  },
+  {
+    "id": "energy",
+    "Name": "Energy"
+  },
+  {
+    "id": "food-processing",
+    "Name": "Food processing"
+  },
+  {
+    "id": "forestry",
+    "Name": "Forestry"
+  },
+  {
+    "id": "fuel-materials",
+    "Name": "Fuel / Materials"
+  },
+  {
+    "id": "glass",
+    "Name": "Glass"
+  },
+  {
+    "id": "heavy-industry",
+    "Name": "Heavy industry"
+  },
+  {
+    "id": "heavy-machinery",
+    "Name": "Heavy machinery"
+  },
+  {
+    "id": "industrial-machinery",
+    "Name": "Industrial machinery"
+  },
+  {
+    "id": "iron-steel",
+    "Name": "Iron & steel"
+  },
+  {
+    "id": "metal-goods",
+    "Name": "Metal goods"
+  },
+  {
+    "id": "military-steel",
+    "Name": "Military / Steel"
+  },
+  {
+    "id": "mining",
+    "Name": "Mining"
+  },
+  {
+    "id": "mining-machinery",
+    "Name": "Mining machinery"
+  },
+  {
+    "id": "office-equipment",
+    "Name": "Office equipment"
+  },
+  {
+    "id": "paper",
+    "Name": "Paper"
+  },
+  {
+    "id": "precision-instruments",
+    "Name": "Precision instruments"
+  },
+  {
+    "id": "railway",
+    "Name": "Railway"
+  },
+  {
+    "id": "shipbuilding",
+    "Name": "Shipbuilding"
+  },
+  {
+    "id": "steel",
+    "Name": "Steel"
+  },
+  {
+    "id": "textile-machinery",
+    "Name": "Textile machinery"
+  },
+  {
+    "id": "textile-machinery",
+    "Name": "Textile machinery"
+  },
+  {
+    "id": "textiles",
+    "Name": "Textiles"
+  },
+  {
+    "id": "urban-infrastructure",
+    "Name": "Urban infrastructure"
+  }
+]

@@ -1,0 +1,48 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C# — 4-space indentation
+[*.cs]
+indent_style = space
+indent_size = 4
+
+# Project / solution files
+[*.{csproj,sln,props,targets}]
+indent_style = space
+indent_size = 2
+
+# TypeScript / JavaScript / JSX / TSX
+[*.{ts,tsx,js,jsx,mjs,cjs}]
+indent_style = space
+indent_size = 2
+
+# JSON
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown
+[*.md]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+
+# HTML
+[*.html]
+indent_style = space
+indent_size = 2
+
+# CSS / SCSS
+[*.{css,scss}]
+indent_style = space
+indent_size = 2
+
+# YAML
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2

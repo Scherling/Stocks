@@ -1,0 +1,128 @@
+[
+  {
+    "id": "mining",
+    "name": "Mining",
+    "industry": "Resource Extraction",
+    "description": "Extraction of ores and minerals from underground deposits."
+  },
+  {
+    "id": "quarrying",
+    "name": "Quarrying",
+    "industry": "Resource Extraction",
+    "description": "Surface extraction of stone and mineral deposits from open pits."
+  },
+  {
+    "id": "logging",
+    "name": "Logging",
+    "industry": "Resource Extraction",
+    "description": "Harvesting timber from forests for industrial and construction use."
+  },
+  {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "industry": "Resource Extraction",
+    "description": "Cultivation and harvesting of crops and plant-based raw materials."
+  },
+  {
+    "id": "animal-husbandry",
+    "name": "Animal Husbandry",
+    "industry": "Resource Extraction",
+    "description": "Raising livestock to produce animal-based raw materials such as wool."
+  },
+  {
+    "id": "smelting",
+    "name": "Smelting",
+    "industry": "Primary Industrial Processing",
+    "description": "Extracting metal from ore using high-temperature furnaces."
+  },
+  {
+    "id": "coking",
+    "name": "Coking",
+    "industry": "Primary Industrial Processing",
+    "description": "Heating coal in the absence of air to produce coke for metallurgy."
+  },
+  {
+    "id": "casting",
+    "name": "Casting",
+    "industry": "Primary Industrial Processing",
+    "description": "Forming metal parts by pouring molten metal into molds."
+  },
+  {
+    "id": "rolling",
+    "name": "Rolling",
+    "industry": "Primary Industrial Processing",
+    "description": "Shaping metal into beams, rails, and sheets using rolling mills."
+  },
+  {
+    "id": "forging",
+    "name": "Forging",
+    "industry": "Primary Industrial Processing",
+    "description": "Shaping heated metal using hammers or presses."
+  },
+  {
+    "id": "machining",
+    "name": "Machining",
+    "industry": "Mechanical Manufacturing",
+    "description": "Precision cutting and shaping of metal parts using machine tools."
+  },
+  {
+    "id": "assembly",
+    "name": "Assembly",
+    "industry": "Mechanical Manufacturing",
+    "description": "Combining manufactured parts into finished mechanical products."
+  },
+  {
+    "id": "electrical-assembly",
+    "name": "Electrical Assembly",
+    "industry": "Mechanical Manufacturing",
+    "description": "Assembly of electrical and electromechanical equipment and systems."
+  },
+  {
+    "id": "glassmaking",
+    "name": "Glassmaking",
+    "industry": "Material Processing",
+    "description": "Producing glass goods by melting silica and forming it into products."
+  },
+  {
+    "id": "spinning",
+    "name": "Spinning",
+    "industry": "Material Processing",
+    "description": "Transforming raw fibers such as cotton, wool, or flax into yarn."
+  },
+  {
+    "id": "textile-processing",
+    "name": "Textile Processing",
+    "industry": "Material Processing",
+    "description": "Manufacturing textiles by weaving or knitting yarn into fabric."
+  },
+  {
+    "id": "papermaking",
+    "name": "Papermaking",
+    "industry": "Material Processing",
+    "description": "Producing paper from wood pulp and other plant fibers."
+  },
+  {
+    "id": "rope-making",
+    "name": "Rope Making",
+    "industry": "Material Processing",
+    "description": "Twisting plant fibers into rope and cordage."
+  },
+  {
+    "id": "chemical-processing",
+    "name": "Chemical Processing",
+    "industry": "Chemical Industry",
+    "description": "Industrial production and treatment of bulk chemical materials."
+  },
+  {
+    "id": "chemical-synthesis",
+    "name": "Chemical Synthesis",
+    "industry": "Chemical Industry",
+    "description": "Creation of new chemical compounds through controlled reactions."
+  },
+  {
+    "id": "food-processing",
+    "name": "Food Processing",
+    "industry": "Food Industry",
+    "description": "Industrial preparation and preservation of food products."
+  }
+]

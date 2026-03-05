@@ -1,0 +1,622 @@
+[
+  {
+    "id": "agricultural-implements-recipe-0",
+    "Method": "Forge & Assembly",
+    "input": [
+      { "id": "pig-iron", "count": 1 },
+      { "id": "timber", "count": 1 }
+    ],
+    "output": [
+      { "id": "agricultural-implements", "count": 1 }
+    ]
+  },
+  {
+    "id": "agricultural-machinery-reapers-threshers-recipe-0",
+    "Method": "Machining & Assembly",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "timber", "count": 1 }
+    ],
+    "output": [
+      { "id": "agricultural-machinery-reapers-threshers", "count": 1 }
+    ]
+  },
+  {
+    "id": "armaments-recipe-0",
+    "Method": "Machining, Chemical Processing & Assembly",
+    "input": [
+      { "id": "structural-steel-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "armaments", "count": 1 }
+    ]
+  },
+  {
+    "id": "basic-hand-tools-recipe-0",
+    "Method": "Forge & Assembly",
+    "input": [
+      { "id": "pig-iron", "count": 1 },
+      { "id": "timber", "count": 1 }
+    ],
+    "output": [
+      { "id": "basic-hand-tools", "count": 1 }
+    ]
+  },
+  {
+    "id": "bessemer-steel-rails-recipe-0",
+    "Method": "Bessemer Steelmaking & Rolling",
+    "input": [
+      { "id": "pig-iron", "count": 1 },
+      { "id": "coke", "count": 1 },
+      { "id": "limestone", "count": 1 }
+    ],
+    "output": [
+      { "id": "bessemer-steel-rails", "count": 1 }
+    ]
+  },
+  {
+    "id": "bicycles-recipe-0",
+    "Method": "Precision Machining & Assembly",
+    "input": [
+      { "id": "structural-steel-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "natural-rubber", "count": 1 }
+    ],
+    "output": [
+      { "id": "bicycles", "count": 1 }
+    ]
+  },
+  {
+    "id": "cameras-recipe-0",
+    "Method": "Optical Assembly & Chemical Finishing",
+    "input": [
+      { "id": "glass-bottles-and-basic-glassware", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "photographic-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "cameras", "count": 1 }
+    ]
+  },
+  {
+    "id": "cast-iron-household-goods-recipe-0",
+    "Method": "Casting",
+    "input": [
+      { "id": "pig-iron", "count": 1 },
+      { "id": "coke", "count": 1 }
+    ],
+    "output": [
+      { "id": "cast-iron-household-goods", "count": 1 }
+    ]
+  },
+  {
+    "id": "chemical-fertilizers-recipe-0",
+    "Method": "Chemical Processing",
+    "input": [
+      { "id": "heavy-industrial-chemicals", "count": 1 },
+      { "id": "phosphate-rock", "count": 1 }
+    ],
+    "output": [
+      { "id": "chemical-fertilizers", "count": 1 }
+    ]
+  },
+  {
+    "id": "coke-recipe-0",
+    "Method": "Coking (Pyrolysis)",
+    "input": [
+      { "id": "coal", "count": 1 }
+    ],
+    "output": [
+      { "id": "coke", "count": 1 }
+    ]
+  },
+  {
+    "id": "copper-ingots-recipe-0",
+    "Method": "Smelting",
+    "input": [
+      { "id": "copper-ore", "count": 1 },
+      { "id": "coal", "count": 1 },
+      { "id": "limestone", "count": 1 }
+    ],
+    "output": [
+      { "id": "copper-ingots", "count": 1 }
+    ]
+  },
+  {
+    "id": "copper-wire-recipe-0",
+    "Method": "Wire Drawing",
+    "input": [
+      { "id": "copper-ingots", "count": 1 },
+      { "id": "coal", "count": 1 }
+    ],
+    "output": [
+      { "id": "copper-wire", "count": 1 }
+    ]
+  },
+  {
+    "id": "cotton-fabrics-recipe-0",
+    "Method": "Weaving",
+    "input": [
+      { "id": "cotton-yarn", "count": 1 }
+    ],
+    "output": [
+      { "id": "cotton-fabrics", "count": 1 }
+    ]
+  },
+  {
+    "id": "cotton-yarn-recipe-0",
+    "Method": "Spinning",
+    "input": [
+      { "id": "raw-cotton", "count": 1 }
+    ],
+    "output": [
+      { "id": "cotton-yarn", "count": 1 }
+    ]
+  },
+  {
+    "id": "dynamos-and-electric-motors-recipe-0",
+    "Method": "Electromechanical Assembly",
+    "input": [
+      { "id": "structural-steel-beams", "count": 1 },
+      { "id": "copper-ingots", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "dynamos-and-electric-motors", "count": 1 }
+    ]
+  },
+  {
+    "id": "electric-light-bulbs-recipe-0",
+    "Method": "Glassblowing & Electrical Assembly",
+    "input": [
+      { "id": "glass-bottles-and-basic-glassware", "count": 1 },
+      { "id": "copper-ingots", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "electric-light-bulbs", "count": 1 }
+    ]
+  },
+  {
+    "id": "electric-tram-components-recipe-0",
+    "Method": "Systems Integration & Assembly",
+    "input": [
+      { "id": "structural-steel-beams", "count": 1 },
+      { "id": "dynamos-and-electric-motors", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "electric-tram-components", "count": 1 }
+    ]
+  },
+  {
+    "id": "electrical-distribution-hardware-recipe-0",
+    "Method": "Metalworking & Electrical Assembly",
+    "input": [
+      { "id": "copper-ingots", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "electrical-distribution-hardware", "count": 1 }
+    ]
+  },
+  {
+    "id": "enamelware-recipe-0",
+    "Method": "Enameling",
+    "input": [
+      { "id": "cast-iron-household-goods", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "enamelware", "count": 1 }
+    ]
+  },
+  {
+    "id": "explosives-recipe-0",
+    "Method": "Chemical Synthesis",
+    "input": [
+      { "id": "heavy-industrial-chemicals", "count": 1 },
+      { "id": "sulfur", "count": 1 },
+      { "id": "saltpeter", "count": 1 }
+    ],
+    "output": [
+      { "id": "explosives", "count": 1 }
+    ]
+  },
+  {
+    "id": "factory-machinery-systems-recipe-0",
+    "Method": "Systems Integration & Assembly",
+    "input": [
+      { "id": "machine-tools", "count": 1 },
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "factory-machinery-systems", "count": 1 }
+    ]
+  },
+  {
+    "id": "gas-lighting-fixtures-recipe-0",
+    "Method": "Metalworking & Glass Assembly",
+    "input": [
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "glass-bottles-and-basic-glassware", "count": 1 }
+    ],
+    "output": [
+      { "id": "gas-lighting-fixtures", "count": 1 }
+    ]
+  },
+  {
+    "id": "gas-pipes-and-meters-recipe-0",
+    "Method": "Pipefitting & Assembly",
+    "input": [
+      { "id": "iron-pipes", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "gas-pipes-and-meters", "count": 1 }
+    ]
+  },
+  {
+    "id": "glass-bottles-and-basic-glassware-recipe-0",
+    "Method": "Glassmaking & Forming",
+    "input": [
+      { "id": "silica-sand", "count": 1 },
+      { "id": "coke", "count": 1 }
+    ],
+    "output": [
+      { "id": "glass-bottles-and-basic-glassware", "count": 1 }
+    ]
+  },
+  {
+    "id": "gramophones-recipe-0",
+    "Method": "Mechanical Assembly",
+    "input": [
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "timber", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "gramophones", "count": 1 }
+    ]
+  },
+  {
+    "id": "heavy-industrial-chemicals-recipe-0",
+    "Method": "Chemical Refining",
+    "input": [
+      { "id": "coal", "count": 1 },
+      { "id": "limestone", "count": 1 },
+      { "id": "salt", "count": 1 }
+    ],
+    "output": [
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ]
+  },
+  {
+    "id": "hosiery-recipe-0",
+    "Method": "Knitting",
+    "input": [
+      { "id": "wool-yarn", "count": 1 }
+    ],
+    "output": [
+      { "id": "hosiery", "count": 1 }
+    ]
+  },
+  {
+    "id": "industrial-boilers-and-steam-engines-recipe-0",
+    "Method": "Heavy Machining & Assembly",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "machine-tools", "count": 1 }
+    ],
+    "output": [
+      { "id": "industrial-boilers-and-steam-engines", "count": 1 }
+    ]
+  },
+  {
+    "id": "iron-pipes-recipe-0",
+    "Method": "Casting & Pipe Forming",
+    "input": [
+      { "id": "pig-iron", "count": 1 }
+    ],
+    "output": [
+      { "id": "iron-pipes", "count": 1 }
+    ]
+  },
+  {
+    "id": "iron-ships-steamships-recipe-0",
+    "Method": "Shipbuilding",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "industrial-boilers-and-steam-engines", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "iron-ships-steamships", "count": 1 }
+    ]
+  },
+  {
+    "id": "iron-wire-and-cables-recipe-0",
+    "Method": "Wire Drawing & Stranding",
+    "input": [
+      { "id": "structural-steel-beams", "count": 1 }
+    ],
+    "output": [
+      { "id": "iron-wire-and-cables", "count": 1 }
+    ]
+  },
+  {
+    "id": "linen-cloth-recipe-0",
+    "Method": "Weaving",
+    "input": [
+      { "id": "flax", "count": 1 }
+    ],
+    "output": [
+      { "id": "linen-cloth", "count": 1 }
+    ]
+  },
+  {
+    "id": "machine-tools-recipe-0",
+    "Method": "Precision Machining",
+    "input": [
+      { "id": "structural-steel-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "machine-tools", "count": 1 }
+    ]
+  },
+  {
+    "id": "mechanized-looms-recipe-0",
+    "Method": "Machining & Assembly",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "machine-tools", "count": 1 }
+    ],
+    "output": [
+      { "id": "mechanized-looms", "count": 1 }
+    ]
+  },
+  {
+    "id": "mining-equipment-recipe-0",
+    "Method": "Heavy Fabrication",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "machine-tools", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "mining-equipment", "count": 1 }
+    ]
+  },
+  {
+    "id": "office-machines-recipe-0",
+    "Method": "Precision Assembly",
+    "input": [
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "timber", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "office-machines", "count": 1 }
+    ]
+  },
+  {
+    "id": "paper-machine-made-recipe-0",
+    "Method": "Pulping & Papermaking",
+    "input": [
+      { "id": "timber", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "paper-machine-made", "count": 1 }
+    ]
+  },
+  {
+    "id": "pharmaceuticals-recipe-0",
+    "Method": "Chemical Synthesis & Formulation",
+    "input": [
+      { "id": "heavy-industrial-chemicals", "count": 1 },
+      { "id": "photographic-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "pharmaceuticals", "count": 1 }
+    ]
+  },
+  {
+    "id": "photographic-chemicals-recipe-0",
+    "Method": "Chemical Synthesis",
+    "input": [
+      { "id": "heavy-industrial-chemicals", "count": 1 },
+      { "id": "silver-ore", "count": 1 }
+    ],
+    "output": [
+      { "id": "photographic-chemicals", "count": 1 }
+    ]
+  },
+  {
+    "id": "pig-iron-recipe-0",
+    "Method": "Blast Furnace Smelting",
+    "input": [
+      { "id": "iron-ore", "count": 1 },
+      { "id": "coke", "count": 1 },
+      { "id": "limestone", "count": 1 }
+    ],
+    "output": [
+      { "id": "pig-iron", "count": 1 }
+    ]
+  },
+  {
+    "id": "processed-foods-canned-goods-recipe-0",
+    "Method": "Canning & Preservation",
+    "input": [
+      { "id": "grain", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "processed-foods-canned-goods", "count": 1 }
+    ]
+  },
+  {
+    "id": "railway-bridges-recipe-0",
+    "Method": "Structural Fabrication",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "railway-bridges", "count": 1 }
+    ]
+  },
+  {
+    "id": "railway-rolling-stock-recipe-0",
+    "Method": "Railcar Construction",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "timber", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "railway-rolling-stock", "count": 1 }
+    ]
+  },
+  {
+    "id": "railway-switches-and-fittings-recipe-0",
+    "Method": "Forging & Machining",
+    "input": [
+      { "id": "structural-steel-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 }
+    ],
+    "output": [
+      { "id": "railway-switches-and-fittings", "count": 1 }
+    ]
+  },
+  {
+    "id": "rope-and-cordage-recipe-0",
+    "Method": "Rope Making (Twisting)",
+    "input": [
+      { "id": "raw-hemp", "count": 1 }
+    ],
+    "output": [
+      { "id": "rope-and-cordage", "count": 1 }
+    ]
+  },
+  {
+    "id": "small-iron-hardware-recipe-0",
+    "Method": "Forging",
+    "input": [
+      { "id": "pig-iron", "count": 1 }
+    ],
+    "output": [
+      { "id": "small-iron-hardware", "count": 1 }
+    ]
+  },
+  {
+    "id": "structural-iron-beams-recipe-0",
+    "Method": "Rolling & Fabrication",
+    "input": [
+      { "id": "pig-iron", "count": 1 },
+      { "id": "coke", "count": 1 }
+    ],
+    "output": [
+      { "id": "structural-iron-beams", "count": 1 }
+    ]
+  },
+  {
+    "id": "structural-steel-beams-recipe-0",
+    "Method": "Steelmaking & Rolling",
+    "input": [
+      { "id": "pig-iron", "count": 1 },
+      { "id": "coke", "count": 1 },
+      { "id": "limestone", "count": 1 }
+    ],
+    "output": [
+      { "id": "structural-steel-beams", "count": 1 }
+    ]
+  },
+  {
+    "id": "synthetic-dyes-recipe-0",
+    "Method": "Chemical Synthesis",
+    "input": [
+      { "id": "heavy-industrial-chemicals", "count": 1 },
+      { "id": "coal-tar", "count": 1 }
+    ],
+    "output": [
+      { "id": "synthetic-dyes", "count": 1 }
+    ]
+  },
+  {
+    "id": "telegraph-equipment-recipe-0",
+    "Method": "Electrical Assembly",
+    "input": [
+      { "id": "copper-ingots", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "telegraph-equipment", "count": 1 }
+    ]
+  },
+  {
+    "id": "telephone-equipment-recipe-0",
+    "Method": "Electrical Assembly",
+    "input": [
+      { "id": "copper-ingots", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "telephone-equipment", "count": 1 }
+    ]
+  },
+  {
+    "id": "textile-machinery-recipe-0",
+    "Method": "Machining & Assembly",
+    "input": [
+      { "id": "structural-iron-beams", "count": 1 },
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "machine-tools", "count": 1 }
+    ],
+    "output": [
+      { "id": "textile-machinery", "count": 1 }
+    ]
+  },
+  {
+    "id": "watches-recipe-0",
+    "Method": "Precision Assembly",
+    "input": [
+      { "id": "small-iron-hardware", "count": 1 },
+      { "id": "heavy-industrial-chemicals", "count": 1 }
+    ],
+    "output": [
+      { "id": "watches", "count": 1 }
+    ]
+  },
+  {
+    "id": "wool-fabrics-recipe-0",
+    "Method": "Weaving",
+    "input": [
+      { "id": "wool-yarn", "count": 1 }
+    ],
+    "output": [
+      { "id": "wool-fabrics", "count": 1 }
+    ]
+  },
+  {
+    "id": "wool-yarn-recipe-0",
+    "Method": "Spinning",
+    "input": [
+      { "id": "raw-wool", "count": 1 }
+    ],
+    "output": [
+      { "id": "wool-yarn", "count": 1 }
+    ]
+  }
+]
