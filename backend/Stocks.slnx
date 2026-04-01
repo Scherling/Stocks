@@ -1,3 +1,8 @@
 <Solution>
   <Project Path="Stocks.Api/Stocks.Api.csproj" />
+  <Project Path="src/Market.Domain/Market.Domain.csproj" />
+  <Project Path="src/Market.Application/Market.Application.csproj" />
+  <Project Path="src/Market.Infrastructure/Market.Infrastructure.csproj" />
+  <Project Path="tests/Market.Tests.Unit/Market.Tests.Unit.csproj" />
+  <Project Path="tests/Market.Tests.Integration/Market.Tests.Integration.csproj" />
 </Solution>

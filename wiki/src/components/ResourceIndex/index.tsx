@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import WikiLayout from '@site/src/components/WikiLayout';
 
 type Resource = {
   id: string;
@@ -22,7 +22,7 @@ export default function ResourceIndex({resources}: Props): JSX.Element {
   const categories = Object.keys(byCategory).sort();
 
   return (
-    <Layout title="Resources" description="All industrial resources">
+    <WikiLayout title="Resources">
       <main style={{padding: '2rem'}}>
         <h1>Resources</h1>
         {categories.map((cat) => (
@@ -42,6 +42,6 @@ export default function ResourceIndex({resources}: Props): JSX.Element {
           </section>
         ))}
       </main>
-    </Layout>
+    </WikiLayout>
   );
 }

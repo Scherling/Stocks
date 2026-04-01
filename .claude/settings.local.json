@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(wc:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(grep -v \"^\\\\.$\\\\|^\\\\.\\\\.$\")",
+      "Bash(dotnet --version)",
+      "Bash(dotnet sdk:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet ef:*)",
+      "Bash(dotnet test:*)"
     ]
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import WikiLayout from '@site/src/components/WikiLayout';
 
 type Resource = {
   id: string;
@@ -14,12 +14,15 @@ type Resource = {
 type RecipeSlot = {id: string; count: number};
 type Recipe = {id: string; Method?: string; input: RecipeSlot[]; output: RecipeSlot[]};
 type ResourceMap = Record<string, {id: string; Name: string; imageFile: string}>;
+type Method = {id: string; name: string; industry: string; description: string};
+type MethodMap = Record<string, Method>;
 
 interface PageData {
   resource: Resource;
   producedBy: Recipe[];
   usedIn: Recipe[];
   resourceMap: ResourceMap;
+  methodMap: MethodMap;
   imageFile: string;
 }
 
@@ -36,7 +39,7 @@ function Slot({
 }): JSX.Element {
   const entry = resourceMap[slot.id];
   const name = entry?.Name ?? slot.id;
-  const suffix = slot.count > 1 ? ` ×${slot.count}` : '';
+  const suffix = ` ×${slot.count}`;
 
   if (entry) {
     return (
@@ -50,11 +53,13 @@ function Slot({
 }
 
 function SlotList({slots, resourceMap}: {slots: RecipeSlot[]; resourceMap: ResourceMap}): JSX.Element {
+  const multi = slots.length > 1;
   return (
     <>
       {slots.map((slot, i) => (
         <React.Fragment key={slot.id}>
           {i > 0 && <br />}
+          {multi && <span style={{userSelect: 'none', marginRight: '0.3em'}}>–</span>}
           <Slot slot={slot} resourceMap={resourceMap} />
         </React.Fragment>
       ))}
@@ -62,7 +67,14 @@ function SlotList({slots, resourceMap}: {slots: RecipeSlot[]; resourceMap: Resou
   );
 }
 
-function ProducedByTable({recipes, resourceMap}: {recipes: Recipe[]; resourceMap: ResourceMap}): JSX.Element {
+function MethodCell({methodId, methodMap}: {methodId: string | undefined; methodMap: MethodMap}): JSX.Element {
+  if (!methodId) return <>—</>;
+  const method = methodMap[methodId];
+  const label = method?.name ?? methodId;
+  return <Link to={`/methods#${methodId}`}>{label}</Link>;
+}
+
+function ProducedByTable({recipes, resourceMap, methodMap}: {recipes: Recipe[]; resourceMap: ResourceMap; methodMap: MethodMap}): JSX.Element {
   return (
     <table>
       <thead>
@@ -71,7 +83,7 @@ function ProducedByTable({recipes, resourceMap}: {recipes: Recipe[]; resourceMap
       <tbody>
         {recipes.map((recipe) => (
           <tr key={recipe.id}>
-            <td>{recipe.Method ?? '—'}</td>
+            <td><MethodCell methodId={recipe.Method} methodMap={methodMap} /></td>
             <td><SlotList slots={recipe.input} resourceMap={resourceMap} /></td>
             <td><SlotList slots={recipe.output} resourceMap={resourceMap} /></td>
           </tr>
@@ -81,7 +93,7 @@ function ProducedByTable({recipes, resourceMap}: {recipes: Recipe[]; resourceMap
   );
 }
 
-function UsedInTable({recipes, resourceMap}: {recipes: Recipe[]; resourceMap: ResourceMap}): JSX.Element {
+function UsedInTable({recipes, resourceMap, methodMap}: {recipes: Recipe[]; resourceMap: ResourceMap; methodMap: MethodMap}): JSX.Element {
   const baseImgUrl = useBaseUrl('img/resources/thumb/');
   return (
     <table>
@@ -97,7 +109,7 @@ function UsedInTable({recipes, resourceMap}: {recipes: Recipe[]; resourceMap: Re
               <td><img src={`${baseImgUrl}${imgFile}`} alt="" width={32} height={32} /></td>
               <td><SlotList slots={recipe.output} resourceMap={resourceMap} /></td>
               <td><SlotList slots={recipe.input} resourceMap={resourceMap} /></td>
-              <td>{recipe.Method ?? '—'}</td>
+              <td><MethodCell methodId={recipe.Method} methodMap={methodMap} /></td>
             </tr>
           );
         })}
@@ -116,12 +128,12 @@ const badgeStyle: React.CSSProperties = {
 };
 
 export default function ResourcePage({pageData}: Props): JSX.Element {
-  const {resource, producedBy, usedIn, resourceMap, imageFile} = pageData;
+  const {resource, producedBy, usedIn, resourceMap, methodMap, imageFile} = pageData;
   const imgSrc = useBaseUrl(`img/resources/${imageFile}`);
 
   return (
-    <Layout title={resource.Name}>
-      <main style={{padding: '2rem', maxWidth: '800px', margin: '0 auto'}}>
+    <WikiLayout title={resource.Name}>
+      <main style={{padding: '2rem', maxWidth: '800px'}}>
         <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', marginBottom: '1.5rem'}}>
           <img
             src={imgSrc}
@@ -145,16 +157,16 @@ export default function ResourcePage({pageData}: Props): JSX.Element {
         {producedBy.length === 0 ? (
           <p><em>None — this is a primary resource.</em></p>
         ) : (
-          <ProducedByTable recipes={producedBy} resourceMap={resourceMap} />
+          <ProducedByTable recipes={producedBy} resourceMap={resourceMap} methodMap={methodMap} />
         )}
 
         <h2>Used in</h2>
         {usedIn.length === 0 ? (
           <p><em>None — this resource is not used in any recipe.</em></p>
         ) : (
-          <UsedInTable recipes={usedIn} resourceMap={resourceMap} />
+          <UsedInTable recipes={usedIn} resourceMap={resourceMap} methodMap={methodMap} />
         )}
       </main>
-    </Layout>
+    </WikiLayout>
   );
 }

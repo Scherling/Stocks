@@ -13,12 +13,14 @@ type Resource = {
 
 type RecipeSlot = {id: string; count: number};
 type Recipe = {id: string; Method?: string; input: RecipeSlot[]; output: RecipeSlot[]};
+type Method = {id: string; name: string; industry: string; description: string};
 
 type PluginContent = {
   resources: Resource[];
   recipesByOutput: Record<string, Recipe[]>;
   recipesByInput: Record<string, Recipe[]>;
   availableImages: string[]; // resource ids that have a dedicated image
+  methods: Method[];
 };
 
 function readJson<T>(filePath: string): T {
@@ -55,6 +57,7 @@ export default function resourcesPlugin(context: LoadContext, _options?: unknown
       const dataDir = path.resolve(context.siteDir, '..', 'Data');
       const resources = readJson<Resource[]>(path.join(dataDir, 'Resources.json'));
       const recipes = readJson<Recipe[]>(path.join(dataDir, 'Recipes.json'));
+      const methods = readJson<Method[]>(path.join(dataDir, 'Methods.json'));
 
       // Copy images from Data/assets → wiki/static/img/resources so Docusaurus serves them
       const assetsDir = path.join(dataDir, 'assets');
@@ -73,11 +76,11 @@ export default function resourcesPlugin(context: LoadContext, _options?: unknown
         }
       }
 
-      return {resources, recipesByOutput, recipesByInput, availableImages};
+      return {resources, recipesByOutput, recipesByInput, availableImages, methods};
     },
 
     async contentLoaded({content, actions}): Promise<void> {
-      const {resources, recipesByOutput, recipesByInput, availableImages} = content;
+      const {resources, recipesByOutput, recipesByInput, availableImages, methods} = content;
       const {addRoute, createData} = actions;
 
       const imageSet = new Set(availableImages);
@@ -86,6 +89,12 @@ export default function resourcesPlugin(context: LoadContext, _options?: unknown
       const resourceMap: Record<string, {id: string; Name: string; imageFile: string}> = {};
       for (const r of resources) {
         resourceMap[r.id] = {id: r.id, Name: r.Name, imageFile: imageSet.has(r.id) ? `${r.id}.png` : 'generic.png'};
+      }
+
+      // Method map: id → Method
+      const methodMap: Record<string, Method> = {};
+      for (const m of methods) {
+        methodMap[m.id] = m;
       }
 
       // Index page
@@ -100,12 +109,24 @@ export default function resourcesPlugin(context: LoadContext, _options?: unknown
         exact: true,
       });
 
+      // Methods page
+      const methodsDataPath = await createData(
+        'methods-all.json',
+        JSON.stringify(methods),
+      );
+      addRoute({
+        path: '/methods',
+        component: '@site/src/components/MethodsPage',
+        modules: {methods: methodsDataPath},
+        exact: true,
+      });
+
       // Per-resource pages
       for (const resource of resources) {
         const producedBy = recipesByOutput[resource.id] ?? [];
         const usedIn = recipesByInput[resource.id] ?? [];
         const imageFile = imageSet.has(resource.id) ? `${resource.id}.png` : 'generic.png';
-        const pageData = {resource, producedBy, usedIn, resourceMap, imageFile};
+        const pageData = {resource, producedBy, usedIn, resourceMap, methodMap, imageFile};
         const dataPath = await createData(
           `resource-${resource.id}.json`,
           JSON.stringify(pageData),

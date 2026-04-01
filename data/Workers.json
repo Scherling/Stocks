@@ -1,0 +1,32 @@
+[
+  {
+    "id": "farmers",
+    "name": "Farmers",
+    "description": "Agricultural workers engaged in cultivating crops, tending livestock, and managing rural land. Their knowledge is rooted in the seasonal rhythms of the land rather than factory discipline, and they represent the largest share of the European labour force throughout the nineteenth century.",
+    "baseWage": 10
+  },
+  {
+    "id": "laborers",
+    "name": "Laborers",
+    "description": "Unskilled and semi-skilled manual workers who perform the heavy physical work of the industrial age — shovelling ore, tending furnaces, carrying materials, and operating simple machines under close supervision. Drawn in large numbers from rural migrants, they form the broad base of the factory workforce.",
+    "baseWage": 15
+  },
+  {
+    "id": "craftsmen",
+    "name": "Craftsmen",
+    "description": "Skilled tradespeople whose expertise was built through years of apprenticeship and practice — smiths, turners, moulders, weavers, glassblowers, and instrument makers. They command higher wages than labourers and exercise considerable judgement on the shop floor, remaining indispensable even as machines displace some of their traditional tasks.",
+    "baseWage": 28
+  },
+  {
+    "id": "clerks",
+    "name": "Clerks",
+    "description": "White-collar office workers responsible for record-keeping, correspondence, purchasing, and the administration of the increasingly complex industrial enterprise. As businesses grow beyond the oversight of a single owner, the counting-house clerk becomes essential to managing orders, wages, inventories, and accounts.",
+    "baseWage": 22
+  },
+  {
+    "id": "engineers",
+    "name": "Engineers",
+    "description": "Technically trained professionals who design, oversee, and improve industrial processes and machinery. Whether managing a blast furnace, calibrating a precision instrument line, or directing a chemical plant, the engineer applies scientific knowledge to production — a class that grows steadily in number and influence as the century advances.",
+    "baseWage": 55
+  }
+]

@@ -1,507 +1,534 @@
-// resources.json
 [
   {
     "id": "agricultural-implements",
     "Name": "Agricultural implements (plough parts)",
     "Category": "agricultural-machinery",
     "Stage": "final",
-    "Description": "Hand-crafted iron and steel components such as ploughshares, coulters, and harrow tines that mechanized tillage on European farms. Widespread adoption through the 1800s dramatically increased crop yields and freed labour for industrial work."
+    "Description": "Iron and steel components such as ploughshares, coulters, and harrow tines are now manufactured in quantity, bringing mechanised tillage within reach of European farms. Foundries in Sheffield, Birmingham, and the English Midlands supply a constant stream of implement parts that improve crop yields and begin to release farm labour for industry."
   },
   {
     "id": "agricultural-machinery-reapers-threshers",
     "Name": "Agricultural machinery (reapers, threshers)",
     "Category": "agricultural-machinery",
     "Stage": "final",
-    "Description": "Horse- or steam-powered machines that cut standing grain and separated seed from straw, replacing armies of seasonal farm workers. Inventions such as McCormick's reaper spread from Britain and America to the European continent during the mid-19th century."
+    "Description": "Horse- and steam-powered reapers and threshers are transforming the grain harvest, cutting in a day what armies of labourers once required a week to accomplish. McCormick's reaper has made its mark on American and European fields alike, and the machines are now spreading rapidly across the continent."
   },
   {
     "id": "armaments",
     "Name": "Armaments (modern artillery, rifles)",
     "Category": "military-steel",
     "Stage": "final",
-    "Description": "Industrially manufactured weapons including breech-loading rifles and steel artillery pieces that transformed warfare and national power. Mass production methods pioneered by firms like Krupp in Prussia made modern armies dependent on the output of heavy industry."
+    "Description": "Modern industrially produced armaments — breech-loading rifles and steel artillery — now determine the outcome of European conflicts as never before. Firms such as Krupp of Essen cast and machine steel cannon barrels to tolerances that hand-craftsmen could never achieve, placing national power in direct proportion to industrial capacity."
   },
   {
     "id": "basic-hand-tools",
     "Name": "Basic hand tools",
     "Category": "metal-goods",
     "Stage": "final",
-    "Description": "Simple iron and steel implements—hammers, chisels, saws, and files—produced in large quantities in factory districts such as the English Black Country. Essential to every trade and workshop, they were among the first manufactured goods exported globally."
+    "Description": "Hammers, chisels, saws, and files produced in the workshop districts of England's Black Country and equivalent centres on the Continent flow to every trade and workshop in the industrial world. These simple tools are among the most widely exported manufactured goods, and their quality reflects the precision of modern factory production."
   },
   {
     "id": "bessemer-steel-rails",
     "Name": "Bessemer steel rails",
     "Category": "steel",
     "Stage": "final",
-    "Description": "High-strength steel rails produced via Henry Bessemer's converter process, replacing wrought-iron rails that wore out rapidly under locomotive traffic. From the 1860s onward they became the backbone of Europe's expanding railway networks."
+    "Description": "Produced by driving air through molten pig iron in Mr Bessemer's converter, these steel rails far outlast the wrought-iron variety they are replacing on Europe's railways. Since the process became commercially established in the 1860s, rail mills at Sheffield, Creusot, and Dortmund have rolled millions of tons to keep pace with the expanding network."
   },
   {
     "id": "bicycles",
     "Name": "Bicycles",
     "Category": "consumer-durables",
     "Stage": "final",
-    "Description": "A late-19th-century mass-market transport innovation, refined from the velocipede into the safety bicycle of the 1880s. Affordable personal mobility for the urban working and middle classes, spurring new demand for precision metalwork and rubber tyres."
+    "Description": "The safety bicycle — now offered by manufacturers across Britain, France, and Germany at prices the working and middle classes can consider — is proving the first true personal vehicle of the age. Its pneumatic rubber tyres, chain drive, and equal-sized wheels have overcome the dangers of the earlier high-wheel boneshaker and created a remarkable new mass market."
   },
   {
     "id": "cameras",
     "Name": "Cameras",
     "Category": "precision-instruments",
     "Stage": "final",
-    "Description": "Optical instruments using glass lenses and light-sensitive chemical plates to capture permanent images, commercialised from the 1840s onward. Initially luxury items, falling production costs by century's end made photography accessible to a broad public."
+    "Description": "Photographic cameras of the wet-plate and dry-plate variety are now in common professional use, and the recent introduction of hand-held detective cameras and flexible film stock is opening photography to a far wider public. The demand for precision optics and chemically coated glass plates sustains workshops in London, Paris, and Jena."
   },
   {
     "id": "cast-iron-household-goods",
     "Name": "Cast iron household goods",
     "Category": "metal-goods",
     "Stage": "intermediate",
-    "Description": "Cooking pots, stoves, door furniture, and decorative ironwork poured in sand moulds at foundries across Britain, France, and Germany. Cheap and durable, cast-iron goods replaced wooden and ceramic equivalents in millions of working-class homes."
+    "Description": "Cast-iron pots, stoves, grates, and ornamental ironwork are poured in sand moulds at foundries across Britain, France, and Germany, replacing heavier or more perishable domestic articles at prices even modest households can afford. The foundry trade is one of the most visible faces of industrial progress in daily life."
   },
   {
     "id": "chemical-fertilizers",
     "Name": "Chemical fertilizers",
     "Category": "chemicals",
     "Stage": "final",
-    "Description": "Manufactured compounds—superphosphates, ammonium sulphate, and later synthetic nitrates—that replenished exhausted soils and boosted agricultural output. The industrial chemistry underpinning their production was one of the defining advances of the late 19th century."
+    "Description": "Superphosphate — prepared by treating bone or phosphate rock with sulphuric acid — and ammonium sulphate from gas works are now sold in quantity to farmers seeking to restore exhausted soils. The agricultural chemistry movement inspired by Justus von Liebig's researches has turned what was once a craft practice into a growing branch of industrial chemistry."
   },
   {
     "id": "coal",
     "Name": "Coal",
     "Category": "energy",
     "Stage": "raw",
-    "Description": "The primary fuel of the Industrial Revolution, mined in vast quantities from seams in Britain, the Ruhr, Silesia, and northern France. Coal powered steam engines, smelted iron, heated homes, and fed gas works, making it the lifeblood of 19th-century civilisation."
+    "Description": "Coal is the most vital fuel of this age, mined in immense quantities from seams beneath Britain, the Ruhr, Silesia, and northern France. It fires steam engines, smelts iron, heats homes, and feeds the gas works lighting city streets — without it, modern industry simply could not function."
   },
   {
     "id": "coal-tar",
     "Name": "Coal tar",
     "Category": "chemicals",
     "Stage": "raw",
-    "Description": "A thick black byproduct of coking and gas-works processes, initially regarded as a nuisance waste. It proved to be a rich source of organic compounds, giving rise to the synthetic dye, pharmaceutical, and explosive industries of the later 19th century."
+    "Description": "Coal tar, the thick black fluid driven off when coal is baked in ovens or distilled for gas, was long considered a troublesome waste. It has lately proved a treasury of organic compounds — aniline, benzene, naphthalene — from which chemists are extracting vivid dyes, disinfectants, and the raw materials of explosives."
   },
   {
     "id": "coke",
-    "Name": "Coke (processed coal fuel)",
+    "Name": "Coke",
     "Category": "fuel-materials",
     "Stage": "intermediate",
-    "Description": "Coal baked in closed ovens to burn off impurities, producing a hard, high-carbon fuel capable of smelting iron ore in a blast furnace without contaminating the metal. The switch from charcoal to coke, pioneered at Coalbrookdale, unlocked large-scale iron production across Europe."
+    "Description": "Coke, prepared by driving off volatile impurities from coal in closed ovens, is the indispensable fuel for the blast furnace. Unlike raw coal, it does not impart sulphur to the iron, and its hard granular structure supports the immense burden of ore and limestone charged above it — a combination that makes large-scale iron smelting possible."
   },
   {
     "id": "copper-ingots",
     "Name": "Copper ingots",
     "Category": "metal-goods",
     "Stage": "intermediate",
-    "Description": "Refined copper cast into standardised bars ready for rolling, drawing, or alloying. As electrical technology expanded after the 1870s, demand for pure copper ingots surged to supply wire mills and equipment manufacturers throughout Europe."
+    "Description": "Refined copper, cast into standardised bars at smelting and electrolytic refining works, is in growing demand as electrical technology advances. Wire mills draw it into fine conductors, electroplating works use it to coat cheaper metals, and the engineering industry alloys it into brass and bronze for a hundred purposes."
   },
   {
     "id": "copper-ore",
     "Name": "Copper ore",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Rock bearing copper sulphide or oxide minerals, mined chiefly in Cornwall, Spain's Rio Tinto district, and later Scandinavia. The ore required smelting and refining before the metal could be put to industrial use."
+    "Description": "Copper sulphide and oxide ores are mined principally in Cornwall, Spain's Rio Tinto district, and Scandinavia, then shipped to smelting works where repeated roasting and slagging yields commercial copper. The metal has been worked since antiquity, but the electrical age is creating demand far beyond what tradition alone could drive."
   },
   {
     "id": "copper-wire",
     "Name": "Copper wire",
     "Category": "metal-goods",
     "Stage": "final",
-    "Description": "Drawn copper rod reduced to fine gauges for electrical conductors, enabling telegraph networks, electrical machinery, and eventually urban power distribution. Britain and Germany became leading producers as the electrical industry boomed in the 1880s and 1890s."
+    "Description": "Copper wire, drawn through hardened dies to fine and consistent gauges, is the essential conductor of the telegraph age. Strand by strand it forms the thousands of miles of line that carry messages across continents and under oceans, and the same wire now supplies the growing electrical power networks of cities."
   },
   {
     "id": "cotton-fabrics",
     "Name": "Cotton fabrics",
     "Category": "textiles",
     "Stage": "final",
-    "Description": "Woven cloth produced on power looms in mill towns such as Manchester, Mulhouse, and Łódź, and sold across the world. Cotton textiles were the emblematic product of the first Industrial Revolution, driving urbanisation, global trade, and colonial commodity chains."
+    "Description": "Power-loom cotton cloth pours from the mills of Manchester, Mulhouse, and Łódź in volumes and at prices that clothe not only Europe but much of the world. Cotton textiles remain the emblem of the first Industrial Revolution, and the industry they sustain — from the picking fields of the American South to the warehouses of Liverpool — is still without equal."
   },
   {
     "id": "cotton-yarn",
     "Name": "Cotton yarn",
     "Category": "textiles",
     "Stage": "intermediate",
-    "Description": "Thread spun from raw cotton fibre on mechanised mule or ring spinning frames in large factory mills. Yarn was the essential intermediate product linking the raw-cotton import trade to the weaving sheds that produced finished cloth."
+    "Description": "Spun on mule or ring frames in large brick-built spinning mills, cotton yarn is the essential intermediate product connecting raw cotton imports to the weaving sheds that produce finished cloth. The spinning districts of Lancashire and Alsace consume enormous quantities of American and Egyptian raw cotton to meet demand."
   },
   {
     "id": "dynamos-and-electric-motors",
     "Name": "Dynamos and electric motors",
     "Category": "electrical-equipment",
     "Stage": "intermediate",
-    "Description": "Rotating electromagnetic machines that converted mechanical energy into electrical current or vice versa, commercialised following Werner von Siemens's 1867 self-exciting dynamo. They formed the core of power stations, traction systems, and industrial drives in the electrification era."
+    "Description": "Werner von Siemens's self-exciting dynamo of 1867 showed that a machine could generate useful electrical current without permanent magnets, and since then the dynamo and its mechanical reverse — the electric motor — have become the indispensable core of power stations and factory drives. The electrical age rests on these rotating machines."
   },
   {
     "id": "electric-light-bulbs",
     "Name": "Electric light bulbs",
     "Category": "electrical-equipment",
     "Stage": "final",
-    "Description": "Incandescent glass globes containing a glowing filament, made practical by Edison and Swan in 1879 and rapidly industrialised through the 1880s. Electric lighting transformed factories, streets, and domestic interiors, displacing gas lamps and candles."
+    "Description": "The incandescent lamp, made practical by Mr Edison in America and Mr Swan in England in 1879, is now produced in factory quantities and installed in hotels, theatres, and the homes of the wealthy. Streets and factories are beginning to adopt electric lighting as a rival to gas, and the industry producing bulbs, filaments, and fittings is growing rapidly."
   },
   {
     "id": "electric-tram-components",
     "Name": "Electric tram components",
     "Category": "electrical-equipment",
     "Stage": "final",
-    "Description": "Rails, overhead wires, motor bogies, and control gear for urban electric tramways, which replaced horse-drawn cars in European cities from the late 1880s. The tram system integrated electrical engineering, civil infrastructure, and mass transit for the first time."
+    "Description": "Electric tramways are replacing horse-drawn cars in European and American cities with remarkable speed. The overhead wire, the motor bogie, the track, and the control equipment must all be manufactured to close tolerances and assembled into a reliable system — demanding a new combination of civil and electrical engineering that few workshops possessed a decade ago."
   },
   {
     "id": "electrical-distribution-hardware",
     "Name": "Electrical distribution hardware",
     "Category": "electrical-equipment",
     "Stage": "final",
-    "Description": "Switchgear, insulators, junction boxes, and cable terminations that formed the infrastructure of urban electrical networks. As cities built public power stations in the 1880s and 1890s, this hardware was required in enormous quantities."
+    "Description": "As towns and cities erect public power stations and lay cables to supply electric light and motive power, there is urgent demand for switchgear, insulators, fuse boxes, and cable terminations. This distribution hardware is manufactured chiefly by electrical engineering firms in Germany, Britain, and the United States, who are rapidly building the infrastructure of the electric city."
   },
   {
     "id": "enamelware",
     "Name": "Enamelware",
     "Category": "consumer-goods",
     "Stage": "final",
-    "Description": "Iron or steel vessels coated with a fused glass glaze, produced cheaply in large quantities for kitchens and hospitals. Lightweight, hygienic, and corrosion-resistant, enamelware replaced heavier cast-iron cookware for everyday household use."
+    "Description": "Fused glass glaze applied to iron or steel vessels produces kitchenware that is light, non-rusting, and easily cleaned — hygienic qualities that make it welcome in both domestic kitchens and hospital wards. The enamelware industry is centred in Silesia and Bohemia, where coal, iron, and chemical supplies are conveniently at hand."
   },
   {
     "id": "explosives",
     "Name": "Explosives (dynamite, TNT)",
     "Category": "chemicals",
     "Stage": "final",
-    "Description": "Powerful chemical compounds—Nobel's dynamite (1867) and later TNT—used in mining, quarrying, tunnel boring, and military ordnance. Industrial explosives compressed decades of manual rock-breaking labour into minutes, accelerating railway and canal construction across the continent."
+    "Description": "Nobel's dynamite, patented in 1867, and the nitrated compounds that followed it have transformed the work of mining, quarrying, and civil engineering. Blasting operations that once required weeks of manual labour are now accomplished in minutes, opening rock faces, driving railway tunnels, and cutting canals with a force no human effort could match."
   },
   {
     "id": "factory-machinery-systems",
     "Name": "Factory machinery systems",
     "Category": "industrial-machinery",
     "Stage": "final",
-    "Description": "Integrated sets of power transmission shafts, belting, and specialised machine tools configured to manufacture a specific product at scale. Turnkey factory systems, supplied by engineering firms in Manchester, Chemnitz, and elsewhere, enabled rapid industrialisation in late-developing nations."
+    "Description": "Engineering firms in Manchester, Chemnitz, and Liège now supply turnkey factory systems — integrated sets of shafting, belting, and purpose-built machine tools — configured to manufacture a specific product from start to finish. Whole industrial establishments in newly developing nations are being fitted out with such systems, compressing decades of gradual development."
   },
   {
     "id": "flax",
     "Name": "Flax",
     "Category": "agriculture",
     "Stage": "raw",
-    "Description": "The fibrous stem of the Linum plant, grown across Belgium, Ireland, and the Baltic littoral and retted in water to loosen its fibres. The raw material for linen cloth, flax cultivation and processing employed millions before mechanised spinning displaced hand methods in the mid-19th century."
+    "Description": "Flax, grown across the fields of Belgium, Ireland, and the Baltic coastlands and retted in running water to separate its fibres, is the raw material of the linen industry. Though mechanised spinning has displaced much hand work, flax cultivation remains a large employer in rural regions, and demand from canvas, sailcloth, and shirting makers keeps prices stable."
   },
   {
     "id": "gas-lighting-fixtures",
     "Name": "Gas lighting fixtures",
     "Category": "urban-infrastructure",
     "Stage": "final",
-    "Description": "Burners, mantles, brackets, and lamp-posts that delivered coal gas to streets, factories, theatres, and homes. Gas lighting, widespread in European cities from the 1820s onward, extended productive and social hours into the evening and improved urban safety."
+    "Description": "Coal-gas burners, mantles, brackets, and cast-iron street lamps are produced in quantity by the ironmongery and glassware trades to supply the gas companies that light European towns and cities. Gas lighting, established in London and Paris from the 1820s, has by now reached smaller provincial towns and continues to drive investment in fixtures and fittings."
   },
   {
     "id": "gas-pipes-and-meters",
     "Name": "Gas pipes and meters",
     "Category": "urban-infrastructure",
     "Stage": "final",
-    "Description": "Cast-iron mains buried beneath city streets to distribute coal gas from centralised gasworks, together with meters that measured household consumption. A major feat of 19th-century municipal engineering, the gas network was among the first utilities to penetrate the urban fabric."
+    "Description": "Laid beneath city streets by municipal and private gas companies, cast-iron mains of various diameters carry coal gas from centralised works to thousands of burners in homes, shops, and factories. Meters measure each subscriber's consumption, and the engineering involved in this buried network is among the more impressive achievements of 19th-century urban administration."
   },
   {
     "id": "glass-bottles-and-basic-glassware",
     "Name": "Glass bottles and basic glassware",
     "Category": "glass",
     "Stage": "intermediate",
-    "Description": "Machine-assisted blown or moulded glass containers used for beer, wine, medicines, and chemicals, manufactured in industrial quantities. The mass production of standardised glass packaging was essential to the food-processing, brewing, and pharmaceutical industries."
+    "Description": "Machine-assisted glassblowing and moulding now produce standardised bottles, jars, and chemical vessels in industrial quantities at prices that make glass packaging the natural choice for brewers, pharmacists, and food processors. The glassworks of Germany, Belgium, and England supply the Continent's growing bottle trade."
   },
   {
     "id": "grain",
     "Name": "Grain",
     "Category": "agriculture",
     "Stage": "raw",
-    "Description": "Cereal crops—wheat, rye, barley, oats—harvested from European fields and traded along rivers and railways to feed rapidly growing industrial cities. Grain prices and supply dominated politics throughout the century, from the Corn Laws controversy to the opening of Baltic and North American export routes."
+    "Description": "Cereal crops — wheat, rye, barley, and oats — move in immense quantities along rivers, canals, and the expanding railway network from farm districts to the swelling industrial cities. Grain prices are a perpetual political concern, and the recent opening of Baltic and North American export routes is beginning to reshape the European market."
   },
   {
     "id": "gramophones",
     "Name": "Gramophones",
     "Category": "consumer-durables",
     "Stage": "final",
-    "Description": "Mechanical sound-reproduction devices using a rotating disc or cylinder and a stylus to replay recorded audio, commercialised from the 1890s. An early consumer-electronics product, the gramophone exemplified the late-19th-century convergence of precision manufacturing, chemistry, and popular culture."
+    "Description": "The gramophone — Mr Berliner's laterally cut disc reproducer — is just now entering commercial production and attracting the curious in music shops across European capitals. Earlier Edison cylinder machines showed the principle could work; the disc format promises a music reproduction industry of considerable size once manufacturing costs fall."
   },
   {
     "id": "heavy-industrial-chemicals",
     "Name": "Heavy industrial chemicals",
     "Category": "chemicals",
     "Stage": "intermediate",
-    "Description": "Bulk acids, alkalis, and salts—sulphuric acid, soda ash, chlorine, and their derivatives—produced in large factory plants for use throughout industry. The Leblanc and later Solvay soda processes underpinned soap-making, glass, textiles, fertilisers, and dozens of other sectors."
+    "Description": "Bulk factory chemicals produced in large plants — chiefly alkali products (soda ash/caustic) and chlorine-based bleaching agents — plus common industrial salts and reagents. They underpin soap-making, glass and paper processing, textile preparation and bleaching, cleaning and degreasing, and countless routine operations across manufacturing."
   },
   {
     "id": "hosiery",
     "Name": "Hosiery (stockings)",
     "Category": "textiles",
     "Stage": "final",
-    "Description": "Machine-knitted stockings, socks, and undergarments produced on frame-knitting machines in Midlands towns such as Nottingham and Leicester. The hosiery trade was an early site of industrial conflict and mechanisation, eventually shifting to fully powered factory frames by mid-century."
+    "Description": "Machine-knitted stockings, socks, and undergarments from the Midlands frame-knitting districts of Nottingham and Leicester reach markets across Britain and the Continent. The fully powered factory frame has displaced the domestic hand-knitter in most lines, and the trade, once the site of bitter Luddite protest, is now a settled branch of factory industry."
   },
   {
     "id": "industrial-boilers-and-steam-engines",
     "Name": "Industrial boilers and steam engines",
     "Category": "heavy-machinery",
     "Stage": "intermediate",
-    "Description": "High-pressure wrought-iron or steel vessels generating steam to drive pistons, turbines, and factory line-shafts. The steam engine was the universal prime mover of the 19th century, powering mines, mills, ships, and railways throughout industrialising Europe."
+    "Description": "High-pressure wrought-iron and steel boilers producing steam for pistons, turbines, and line-shafts remain the universal prime mover of the industrial economy. The leading engineering firms of Manchester, Glasgow, and Berlin have refined the steam engine to a high pitch of efficiency and reliability, and it powers mines, mills, ships, and railways without rival."
   },
   {
     "id": "iron-ore",
     "Name": "Iron ore",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Mineral rock bearing iron oxides—haematite, magnetite, or siderite—quarried or mined from rich deposits in Lorraine, the Cleveland Hills, and Sweden. Smelted with coke in blast furnaces, iron ore was the foundational raw material of the entire iron and steel industry."
+    "Description": "Haematite and other iron-bearing minerals are raised from rich deposits in Lorraine's Jurassic beds, the Cleveland Hills of Yorkshire, and the orefields of Sweden, then loaded into blast furnaces with coke and limestone. The quantity now consumed is staggering — millions of tons annually to feed the iron-masters who supply railways, shipyards, and construction."
   },
   {
     "id": "iron-pipes",
     "Name": "Iron pipes",
     "Category": "metal-goods",
     "Stage": "intermediate",
-    "Description": "Cast or wrought-iron tubes manufactured for water mains, sewers, gas distribution, and steam lines across rapidly urbanising cities. Large-diameter iron pipes made possible the sanitary engineering reforms that conquered cholera and typhoid in the second half of the century."
+    "Description": "Cast and spun-iron pipes supply water mains, sewers, gas mains, and steam lines beneath the streets of every industrial city undergoing sanitary reform. The sanitary engineers who have conquered cholera and typhoid in city after city since mid-century depend entirely upon a steady supply of these pipes in standard diameters and lengths."
   },
   {
     "id": "iron-ships-steamships",
     "Name": "Iron ships / steamships",
     "Category": "shipbuilding",
     "Stage": "final",
-    "Description": "Ocean-going and coastal vessels with riveted iron hulls and steam-powered paddle or screw propulsion, displacing wooden sailing ships from the 1840s onward. British yards on the Clyde and Tyne led the world, making the steamship the engine of globalised trade and empire."
-  },
-  {
-    "id": "iron-wire-and-cables",
-    "Name": "Iron wire and cables",
-    "Category": "steel",
-    "Stage": "final",
-    "Description": "Drawn wrought-iron strands twisted into wire rope for mine hoisting, suspension bridges, and later telegraph lines. Iron cable manufacture was a specialised heavy-engineering trade, exemplified by firms supplying the great suspension bridges of the mid-19th century."
+    "Description": "Iron-hulled, steam-powered vessels now dominate the ocean and coastal trades, displacing the wooden sailing ship with a speed and carrying capacity that were unimaginable a generation ago. The Clyde, the Tyne, and Belfast have built the world's greatest shipyards, and their iron steamers carry the goods of industrial Europe to every continent."
   },
   {
     "id": "limestone",
     "Name": "Limestone",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Calcium carbonate rock quarried widely across Europe and used as a flux in iron smelting, as a raw material for cement and lime mortar, and in chemical processing. Without limestone to bind slag in the blast furnace, large-scale pig-iron production would have been impossible."
+    "Description": "Calcium carbonate quarried from the beds that underlie much of Europe is loaded into blast furnaces as a flux to combine with impurities in the ore and form a fluid slag that floats clear of the metal. The same stone, burned to quicklime, is essential to the building trades, agriculture, and the heavy-chemical industry."
   },
   {
     "id": "linen-cloth",
     "Name": "Linen cloth",
     "Category": "textiles",
     "Stage": "final",
-    "Description": "Woven fabric made from flax fibres, traditionally hand-produced in rural cottages but increasingly machine-spun and woven in factories from the 1820s onward. Irish and Belgian linen was prized for its strength and lustre in shirting, canvas, and household linens."
+    "Description": "Flax yarn, mechanically spun in the mills of Belfast, Ghent, and Courtrai, is woven on power looms into the fine, strong linen that commands a premium in shirting, household linen, and canvas markets. Irish linen in particular retains a reputation for quality, and the trade remains an important employer in both Belfast and rural Ulster."
   },
   {
     "id": "machine-tools",
     "Name": "Machine tools (lathes, milling machines)",
     "Category": "industrial-machinery",
     "Stage": "intermediate",
-    "Description": "Precision power-driven machines—lathes, planers, milling machines, and grinding machines—used to cut, shape, and finish metal components to exact tolerances. The machine-tool industry made interchangeable parts and mass production possible, forming the foundation of all other engineering."
+    "Description": "Precision power-driven lathes, planers, milling machines, and boring mills — manufactured to fine tolerances by specialist firms in Manchester, Coventry, and Chemnitz — are the foundation of all other mechanical manufacture. Without them, interchangeable parts and mass production would be impossible, and every engineering workshop in the world depends on them."
   },
   {
     "id": "mechanized-looms",
     "Name": "Mechanized looms",
     "Category": "textile-machinery",
     "Stage": "final",
-    "Description": "Power looms driven by steam or water to weave yarn into cloth at speeds no hand-weaver could match, pioneered by Cartwright and refined across the 19th century. Their adoption in Lancashire, Alsace, and Saxony destroyed the cottage hand-weaving trade while vastly expanding cloth output."
+    "Description": "Steam-powered looms weave yarn into cloth at speeds no hand-weaver can approach, and their adoption throughout Lancashire, Alsace, and Saxony over the past half-century has multiplied cloth output many times over while driving the cottage hand-loom weaver from the market. The power loom is the mechanical heart of the textile factory."
   },
   {
     "id": "mining-equipment",
     "Name": "Mining equipment (pumps, drills)",
     "Category": "mining-machinery",
     "Stage": "final",
-    "Description": "Specialised machinery including steam-powered winding engines, rotary drills, ventilation fans, and ore-sorting tables used to extract and process minerals efficiently. Advances in mining equipment allowed European collieries and metalliferous mines to reach ever greater depths and volumes of output."
+    "Description": "Steam-powered winding engines, rotary rock drills, ventilation fans, and ore-sorting tables allow European collieries and metalliferous mines to reach depths and output volumes that were impossible with hand tools alone. The demand for reliable, heavy-duty mining machinery keeps specialist engineering firms in constant employment."
   },
   {
     "id": "natural-rubber",
     "Name": "Natural rubber",
     "Category": "agriculture",
     "Stage": "raw",
-    "Description": "Latex tapped from Hevea trees in tropical plantations, coagulated and shipped to European factories as a raw elastomer. After Goodyear's vulcanisation process (1844), rubber became indispensable for industrial belting, hoses, electrical insulation, and bicycle tyres."
+    "Description": "Latex gathered from Hevea trees on tropical plantations in Brazil and South-East Asia is coagulated and shipped to European factories as raw rubber. Since Mr Goodyear's vulcanisation process of 1844 made it stable in heat and cold, rubber has become indispensable for industrial belting, hoses, waterproof garments, and now the pneumatic bicycle tyre."
   },
   {
     "id": "office-machines",
     "Name": "Office machines",
     "Category": "office-equipment",
     "Stage": "final",
-    "Description": "Mechanical devices—typewriters, adding machines, and duplicating equipment—introduced in the 1870s–1890s to handle the rising paperwork of large commercial and government organisations. Their adoption transformed clerical work, created new female employment, and drove demand for precision light engineering."
+    "Description": "Typewriters, adding machines, and duplicating devices introduced in the 1870s and 1880s are beginning to transform the clerical departments of banks, railways, government offices, and large commercial houses. The demand these machines create for precision light engineering is substantial, and their adoption is drawing women into office employment in significant numbers."
   },
   {
     "id": "paper-machine-made",
     "Name": "Paper (machine-made)",
     "Category": "paper",
     "Stage": "final",
-    "Description": "Continuous sheets of paper produced on the Fourdrinier or cylinder machine from wood-pulp or rag fibre, replacing slow hand-laid production. Cheap machine paper enabled the explosion of cheap newspapers, books, and administrative documents that accompanied 19th-century mass literacy."
+    "Description": "Continuous paper produced on the Fourdrinier machine from wood pulp or esparto grass, at a fraction of the cost of hand-laid rag paper, has made possible the cheap daily newspaper and the affordable book. The wood-pulp paper industry is now established in Scandinavia and Germany, feeding a reading public whose appetite for the printed word grows year by year."
   },
   {
     "id": "pharmaceuticals",
     "Name": "Pharmaceuticals (early mass-produced medicines)",
     "Category": "chemicals",
     "Stage": "final",
-    "Description": "Standardised medicinal preparations—quinine, morphine salts, aspirin, and antiseptics—manufactured in industrial quantities by chemical and dyestuff firms. The emergence of the pharmaceutical industry in Germany and Switzerland in the 1880s and 1890s applied organic chemistry to systematic disease treatment."
+    "Description": "German and Swiss chemical firms — building on the coal-tar dye industry's mastery of organic synthesis — are beginning to manufacture standardised medicinal preparations in commercial quantities. Quinine sulphate, morphine salts, and the recently introduced antipyretics represent the first systematic application of industrial chemistry to the treatment of disease."
   },
   {
     "id": "phosphate-rock",
     "Name": "Phosphate rock",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Mineral deposits of calcium phosphate mined in Belgium, France, and North Africa and processed into superphosphate fertilisers. The exploitation of phosphate rock after the 1840s was central to the agricultural chemistry movement pioneered by Justus von Liebig."
+    "Description": "Calcium phosphate deposits, mined in Belgium, western France, and North Africa, are treated with sulphuric acid to produce superphosphate — the most widely used artificial fertiliser of the age. Justus von Liebig's demonstration that plants require phosphorus, potassium, and nitrogen in defined quantities gave the exploitation of phosphate rock its scientific basis."
   },
   {
     "id": "photographic-chemicals",
     "Name": "Photographic chemicals",
     "Category": "chemicals",
     "Stage": "intermediate",
-    "Description": "Silver nitrate, sodium thiosulphate, potassium bromide, and other light-sensitive compounds used to coat, develop, and fix photographic plates and paper. Their industrial manufacture supported the rapid spread of photography as both a professional and amateur practice in the second half of the century."
+    "Description": "Silver nitrate, potassium bromide, sodium thiosulphate, and their derivatives — manufactured by chemical works supplying the growing photography trade — coat plates and papers with light-sensitive emulsions, develop latent images, and fix them permanently. Industrial supply of these chemicals has made photography a widely accessible practice."
   },
   {
     "id": "pig-iron",
     "Name": "Pig iron",
     "Category": "iron-steel",
     "Stage": "intermediate",
-    "Description": "The crude high-carbon iron tapped from the bottom of a blast furnace and allowed to solidify in sand moulds, named for the branching \"pig\" shape of the castings. Pig iron was the essential intermediate material refined into cast iron goods, wrought iron, or Bessemer steel."
+    "Description": "The crude, high-carbon metal tapped from the bottom of a blast furnace, where iron ore, coke, and limestone react under a blast of heated air, forms into branching 'pig' shapes as it solidifies in sand beds. Pig iron is the essential intermediate material from which cast-iron goods, wrought iron, and Bessemer steel are all made."
   },
   {
     "id": "processed-foods-canned-goods",
     "Name": "Processed foods (canned goods)",
     "Category": "food-processing",
     "Stage": "final",
-    "Description": "Preserved meats, vegetables, and fish sealed in tinplate cans using Nicolas Appert's method, manufactured at scale from the 1860s onward. Canned goods supplied navies, armies, and urban populations with shelf-stable nutrition, transforming supply chains and dietary habits."
+    "Description": "Tinplate cans sealed by Appert's heat-preservation method supply navies, armies, and city populations with meats, fish, vegetables, and fruit that keep for years without refrigeration. The canning industry is expanding rapidly, with factories in London, Paris, and Hamburg meeting demand from urban consumers who no longer live close to farms."
   },
   {
     "id": "railway-bridges",
     "Name": "Railway bridges (iron components)",
     "Category": "heavy-industry",
     "Stage": "final",
-    "Description": "Prefabricated iron and later steel spans, trusses, and viaducts engineered to carry railways over rivers and valleys. Landmark structures such as the Britannia Tubular Bridge and the Firth of Forth Bridge pushed the limits of metallurgy, surveying, and structural calculation."
+    "Description": "Prefabricated iron and steel spans, trusses, girders, and viaduct sections are fabricated at bridge-building works and assembled on site to carry railways over rivers and valleys at any gradient. The mathematical analysis of stresses and the use of standardised wrought- and cast-iron sections have made bridge construction a science rather than a craft."
   },
   {
     "id": "railway-rolling-stock",
     "Name": "Railway rolling stock",
     "Category": "railway",
     "Stage": "final",
-    "Description": "Locomotives, passenger coaches, goods wagons, and brake vans manufactured in large workshops to equip the European rail network. Rolling stock production became one of the continent's largest engineering industries, with major centres in Derby, Kassel, Vienna, and Saint-Denis."
+    "Description": "Locomotives, passenger coaches, goods wagons, and brake vans manufactured in the great workshops of Derby, Kassel, Vienna, and Saint-Denis equip the railway networks that are now the arteries of European commerce. Rolling stock manufacture is one of the largest engineering industries on the Continent, demanding precision machining, forge work, and assembly on a vast scale."
   },
   {
     "id": "railway-switches-and-fittings",
     "Name": "Railway switches and fittings",
     "Category": "railway",
     "Stage": "final",
-    "Description": "Pointwork, crossings, buffer stops, and signal fittings that controlled the safe routing of trains through junctions and sidings. Precision-cast and machined in specialist ironworks, these components were critical to the safe operation of the dense rail networks that emerged by mid-century."
+    "Description": "Pointwork, crossings, buffer stops, and signal fittings of exact specification are cast and machined in specialist ironworks to control the safe movement of trains through junctions and marshalling yards. The density of the modern rail network makes reliable switching and signalling equipment a matter of both commercial efficiency and public safety."
   },
   {
     "id": "raw-cotton",
     "Name": "Raw cotton",
     "Category": "agriculture",
     "Stage": "raw",
-    "Description": "Seed-hair fibres harvested from the cotton plant and exported from the American South, Egypt, and India to European spinning mills. The insatiable appetite of Lancashire and other textile regions for raw cotton made it the world's most traded commodity by the mid-19th century."
+    "Description": "Seed-hair fibre harvested from cotton plantations in the American South, Egypt, and India pours through the docks of Liverpool, Le Havre, and Bremen to feed the spinning mills that are the foundation of the textile industry. Raw cotton is already among the world's most traded commodities, and no foreseeable end to demand is in sight."
   },
   {
     "id": "raw-hemp",
     "Name": "Raw hemp",
     "Category": "agriculture",
     "Stage": "raw",
-    "Description": "Bast fibre from the Cannabis sativa plant, cultivated in Eastern Europe and Italy and used for rope, sacking, canvas sailcloth, and coarse textiles. Hemp ropewalks supplied the navies and merchant fleets that sustained European maritime trade."
+    "Description": "The strong bast fibre of the Cannabis plant, grown across the plains of Eastern Europe and the Po valley and retted like flax, is the raw material of the rope, sacking, and canvas trades. Hemp ropewalks supply the navies and merchant fleets whose ships still rely on natural-fibre cordage for rigging, though wire rope is beginning to displace it in some uses."
   },
   {
     "id": "raw-wool",
     "Name": "Raw wool",
     "Category": "agriculture",
     "Stage": "raw",
-    "Description": "Fleece shorn from sheep in Britain, Spain, and Australia and shipped to worsted and woollen mills in West Yorkshire, Roubaix, and Saxony. Raw wool was the oldest industrial fibre in Europe, its processing forming the basis of the textile districts that later adopted mechanised methods."
+    "Description": "Fleece shorn from sheep in the hill districts of Britain, the Spanish meseta, and increasingly from the vast flocks of Australia is washed, graded, and shipped to the worsted and woollen mills of West Yorkshire, Roubaix, and Saxony. Raw wool is the oldest industrial fibre in Europe, and the industry it sustains remains one of the largest employers in the textile regions."
   },
   {
     "id": "salt",
     "Name": "Salt",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Sodium chloride extracted from brine wells, rock salt mines, or coastal salt pans across Europe, used as a food preservative, livestock feed supplement, and chemical feedstock. Salt was the foundational raw material for the Leblanc soda process and therefore for the entire heavy-chemical industry."
+    "Description": "Sodium chloride extracted from the brine wells of Cheshire, the rock salt mines of Stassfurt, and the coastal salt pans of the Mediterranean is consumed in enormous quantities as a food preservative, a chemical feedstock, and in the curing and tanning trades. It is the indispensable starting material for the Leblanc process and therefore for the entire heavy-chemical industry."
   },
   {
     "id": "saltpeter",
     "Name": "Saltpeter",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Potassium nitrate refined from mineral deposits or organic sources, the essential oxidising agent in gunpowder and early explosive mixtures. Control of saltpeter supplies was a matter of military strategy for European states throughout the century until synthetic fixation of nitrogen became possible."
+    "Description": "Potassium nitrate, refined from mineral deposits and organic accumulations, is the essential oxidising agent in gunpowder and the early explosive mixtures that precede dynamite. European governments maintain careful control over supplies, and the search for synthetic sources — or nitrate deposits abroad — is a matter of strategic as well as industrial concern."
   },
   {
     "id": "silica-sand",
     "Name": "Silica sand",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "High-purity quartz sand quarried from sandstone formations and used as the primary ingredient in glassmaking and as a moulding material in metal foundries. Its consistent chemical composition was critical for producing clear optical glass and structural plate glass in industrial quantities."
+    "Description": "High-purity quartz sand from sandstone formations in Staffordshire, the Rhine valley, and elsewhere is the principal ingredient of glass and a moulding medium in iron foundries. Its chemical consistency determines the clarity and strength of glass products, and the glassmaking districts of Britain, Belgium, and Bohemia depend on reliable supplies of the right quality."
   },
   {
     "id": "silver-ore",
     "Name": "Silver ore",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Rock bearing silver sulphide or native silver, mined in central Europe—especially the Erzgebirge—and in colonial Latin America. Beyond its monetary role, silver was increasingly used in photography (silver halide coatings) and electroplating as the century progressed."
-  },
-  {
-    "id": "small-iron-hardware",
-    "Name": "Small iron hardware",
-    "Category": "metal-goods",
-    "Stage": "intermediate",
-    "Description": "Nails, bolts, screws, hinges, chains, and miscellaneous small iron pieces produced by specialist nailers and ironmongers in the Black Country and comparable districts. Mechanised production of these items replaced a vast cottage industry and supplied the construction, shipbuilding, and furniture trades."
+    "Description": "Silver sulphide ores from the mining districts of the Erzgebirge, the Harz, and the Andean colonies of Spain yield the metal that serves both as monetary reserve and industrial raw material. Its use in photography — as the light-sensitive halide coatings on glass plates and paper — is creating new industrial demand beyond the mint and the silversmith's workshop."
   },
   {
     "id": "structural-iron-beams",
     "Name": "Structural iron beams",
     "Category": "heavy-industry",
     "Stage": "intermediate",
-    "Description": "Rolled wrought-iron I-beams and channel sections used to frame multi-storey mills, warehouses, and bridges from the 1840s onward. Standardised rolled sections enabled a new form of fireproof construction that defined the industrial building landscape of the mid-to-late 19th century."
+    "Description": "Rolled wrought-iron I-beams and channel sections, produced at rolling mills in South Wales, Lorraine, and the Ruhr, frame the multi-storey mills, warehouses, and market halls that are the characteristic buildings of the industrial city. Standardised sections allow the structural engineer to calculate loads and design fireproof buildings with a confidence that masonry alone could not support."
   },
   {
     "id": "structural-steel-beams",
     "Name": "Structural steel beams",
     "Category": "steel",
     "Stage": "intermediate",
-    "Description": "Rolled steel sections produced from Bessemer or open-hearth steel, replacing wrought iron in large structures by the 1880s due to their greater strength-to-weight ratio. Steel-framed buildings and bridges, exemplified by the Eiffel Tower (1889), embodied the confidence of late-19th-century industrial engineering."
+    "Description": "Steel sections rolled from Bessemer or open-hearth metal have lately begun to replace wrought iron in the largest structures, offering greater tensile strength at the same weight. The Forth Bridge, now under construction, and Mr Eiffel's tower in Paris are demonstrating what steel-frame engineering can achieve, and the structural steel trade is expanding in consequence."
   },
   {
     "id": "sulfur",
     "Name": "Sulfur",
     "Category": "mining",
     "Stage": "raw",
-    "Description": "Yellow non-metallic mineral mined in Sicily and later produced as a byproduct of smelting, essential for manufacturing sulphuric acid—the workhorse chemical of industry. Virtually every major chemical process of the 19th century, from fertiliser to dye to explosive production, depended on a plentiful sulphur supply."
+    "Description": "Yellow sulphur — mined in Sicily and Romagna, or recovered as a byproduct of copper and zinc smelting — is the starting material for sulphuric acid, the workhorse chemical without which the fertiliser, dye, explosive, and textile-finishing industries could not operate. Every significant chemical industry in Europe depends directly or indirectly on a reliable sulphur supply."
   },
   {
     "id": "synthetic-dyes",
     "Name": "Synthetic dyes (aniline dyes)",
     "Category": "chemicals",
     "Stage": "final",
-    "Description": "Vivid aniline and azo dyes derived from coal-tar, beginning with William Perkin's mauve (1856), that replaced expensive natural dyestuffs such as indigo and madder. The German synthetic-dye industry—BASF, Bayer, Hoechst—became the world leader, fusing academic chemistry with large-scale industrial production."
+    "Description": "Aniline and azo dyes derived from coal-tar compounds — beginning with Mr Perkin's accidental mauve of 1856 — have overthrown the ancient trade in natural dyestuffs such as indigo and madder. German firms at Ludwigshafen, Leverkusen, and Frankfurt am Main now dominate world production, employing professional chemists in company laboratories on a scale never seen before."
   },
   {
     "id": "telegraph-equipment",
     "Name": "Telegraph equipment",
     "Category": "electrical-equipment",
     "Stage": "final",
-    "Description": "Electromagnetic transmitters, receivers, relay stations, and miles of copper wire forming networks that sent coded messages at near-instantaneous speed. The electric telegraph, operational across Europe by the 1850s, revolutionised commerce, journalism, military command, and diplomacy."
+    "Description": "Electromagnetic transmitters, receivers, relay stations, and insulators forming networks of copper wire carry coded messages at near-instantaneous speed across Europe and under the Atlantic. The electric telegraph, operational between London and Manchester since 1837 and spanning the Continent by the 1850s, has permanently transformed commerce, diplomacy, and the conduct of war."
   },
   {
     "id": "telephone-equipment",
     "Name": "Telephone equipment",
     "Category": "electrical-equipment",
     "Stage": "final",
-    "Description": "Devices using electrical signals to transmit voice over wire, commercialised from 1876 and spreading rapidly into European business districts and government offices by the 1880s and 1890s. Telephone exchanges and subscriber networks transformed urban communication and created a new infrastructure industry."
+    "Description": "Mr Bell's telephone of 1876, and the instruments and exchanges built upon its principle by rival manufacturers, are spreading into the business districts of every major European and American city. Voice transmission over wire promises to change the nature of office work and urban commerce in ways that can only be guessed at, and the manufacturing firms entering this trade are multiplying."
   },
   {
     "id": "textile-machinery",
     "Name": "Textile machinery",
     "Category": "textile-machinery",
     "Stage": "final",
-    "Description": "The full range of powered machines—carding engines, spinning frames, power looms, and finishing equipment—used in cotton, wool, and linen mills. British textile-machinery makers exported equipment that seeded industrial revolutions in France, Germany, Belgium, and beyond."
+    "Description": "Carding engines, spinning frames, power looms, and finishing machines manufactured principally in Lancashire and Yorkshire are sold to mills across Europe and beyond, seeding textile industries that follow the British pattern. The export of textile machinery has been a principal channel by which industrial methods have propagated from Britain to the Continent."
   },
   {
     "id": "timber",
     "Name": "Timber",
     "Category": "forestry",
     "Stage": "raw",
-    "Description": "Felled and sawn wood from European forests and Baltic imports, used in construction, mine pit-props, railway sleepers, shipbuilding, and fuel. Demand from industrial and urban construction kept European timber trade one of the highest-volume commodity flows throughout the century."
+    "Description": "Felled and sawn wood from Scandinavian and Russian forests, imported via the Baltic trade, supplements dwindling domestic supplies to meet the insatiable demand of construction, mine shaft-lining, railway sleeper-laying, and shipbuilding. Timber remains one of the highest-volume commodity trades of the age, and the sawmill industries of Sweden and Finland are among the most active in Europe."
   },
   {
     "id": "watches",
-    "Name": "Watches (mass-produced)",
+    "Name": "Watches",
     "Category": "precision-instruments",
     "Stage": "final",
-    "Description": "Precision timekeeping instruments mass-produced using standardised interchangeable parts, pioneered in Swiss cantons such as Neuchâtel and in the American system adapted by Swiss and German makers. Affordable watches allowed factory workers and railway staff to coordinate their lives with the new industrial rhythm of precise scheduled time."
+    "Description": "Precision timekeeping instruments, manufactured using the system of interchangeable standardised parts pioneered in Swiss cantons and refined by American competition, are now affordable for factory workers and railway staff. The ability to read the exact time has become a practical necessity of industrial life, and the Swiss and German watch industries supply demand that grows with every new railway timetable and factory shift."
   },
   {
     "id": "wool-fabrics",
     "Name": "Wool fabrics",
     "Category": "textiles",
     "Stage": "final",
-    "Description": "Woven and finished woollen or worsted cloth produced in mill towns such as Bradford, Roubaix, and Lodz for domestic and export markets. Wool textiles clothed Europe's middle classes and working population, remaining a major industry even as cotton dominated the lower-price market."
+    "Description": "Woven woollen and worsted cloths from the mills of Bradford, Halifax, Roubaix, and Lodz clothe the middle and working classes of Europe in a range of qualities from coarse blanket cloth to fine worsted suiting. The wool textile industry, the oldest large-scale manufacture in Europe, has adapted mechanisation more slowly than cotton but now produces at comparable scale."
   },
   {
     "id": "wool-yarn",
     "Name": "Wool yarn",
     "Category": "textiles",
     "Stage": "intermediate",
-    "Description": "Combed or carded wool fibre spun into thread on powered worsted or woollen frames, the intermediate product between raw fleece and woven cloth. Yorkshire's West Riding became the global centre of worsted yarn production, supplying weavers across Europe and beyond."
+    "Description": "Combed or carded wool fibre spun into thread on powered worsted or woollen frames in the mills of West Yorkshire and the Nord department of France forms the intermediate product between raw fleece and finished cloth. Yorkshire's West Riding, long the centre of the European worsted trade, supplies weavers across the Continent and exports yarn as far as the Americas."
+  },
+  {
+    "id": "steel-ingots",
+    "Name": "Steel ingots",
+    "Category": "metallurgy",
+    "Stage": "intermediate",
+    "Description": "Molten pig iron refined in Bessemer converters or open-hearth furnaces is cast into solid ingots that form the basis of modern heavy industry. Stronger and more reliable than wrought iron, these ingots are rolled or machined into beams, rails, tools, and the countless precision components required by the mechanical age."
+  },
+  {
+    "id": "fasteners",
+    "Name": "Fasteners (bolts, nuts, rivets)",
+    "Category": "metal-goods",
+    "Stage": "intermediate",
+    "Description": "Bolts, nuts, screws, and rivets forged from steel provide the essential means of fastening machines, structures, and vehicles together. Though small and inexpensive, these standardized fittings are produced in vast quantities and form the hidden skeleton that holds together factories, railways, bridges, and industrial machinery."
+  },
+  {
+    "id": "precision-parts",
+    "Name": "Precision parts",
+    "Category": "mechanical-components",
+    "Stage": "intermediate",
+    "Description": "Finely machined gears, springs, bearings, and other delicate components manufactured on precision machine tools. These parts enable the smooth motion and accurate timing required in watches, telegraphs, office machines, electrical apparatus, and countless other devices that define the increasingly mechanized world."
+  },
+  {
+    "id": "flax-yarn",
+    "Name": "Flax yarn",
+    "Category": "textiles",
+    "Stage": "intermediate",
+    "Description": "Bundles of retted flax fiber are spun into strong, smooth yarn on specialized spinning frames. This yarn is the essential intermediate material for the linen industry, supplying the looms that produce the durable cloth widely used in garments, sailcloth, sacks, and household textiles."
+  },
+  {
+    "id": "zinc-ore",
+    "Name": "Zinc ore",
+    "Category": "mining",
+    "Stage": "raw",
+    "Description": "Zinc sulphide and carbonate ores are mined principally in Silesia, Belgium's province of Liège, and the Harz mountains. Smelting zinc proved troublesome until the early nineteenth century, when the Belgian distillation process made commercial-scale production viable and supplied the growing brass and galvanising industries of the Continent."
+  },
+  {
+    "id": "brass-ingots",
+    "Name": "Brass ingots",
+    "Category": "metallurgy",
+    "Stage": "intermediate",
+    "Description": "An alloy of copper and zinc smelted by the cementation process — zinc ore packed with copper ingots in sealed crucibles and fired at high heat. Birmingham's Brass Quarter became the world's leading producer by mid-century, supplying clockmakers, instrument manufacturers, gas-fitters, and armourers across the British Empire and Europe with a material prized for its machinability, corrosion resistance, and fine appearance."
   }
 ]

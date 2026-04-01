@@ -3,126 +3,274 @@
     "id": "mining",
     "name": "Mining",
     "industry": "Resource Extraction",
-    "description": "Extraction of ores and minerals from underground deposits."
+    "description": "Extraction of ores and minerals from underground deposits.",
+    "workerComposition": {
+      "laborers": 0.65,
+      "craftsmen": 0.25,
+      "clerks": 0.05,
+      "engineers": 0.05
+    }
   },
   {
     "id": "quarrying",
     "name": "Quarrying",
     "industry": "Resource Extraction",
-    "description": "Surface extraction of stone and mineral deposits from open pits."
+    "description": "Surface extraction of stone and mineral deposits from open pits.",
+    "workerComposition": {
+      "laborers": 0.70,
+      "craftsmen": 0.20,
+      "clerks": 0.05,
+      "engineers": 0.05
+    }
   },
   {
     "id": "logging",
     "name": "Logging",
     "industry": "Resource Extraction",
-    "description": "Harvesting timber from forests for industrial and construction use."
+    "description": "Harvesting timber from forests for industrial and construction use.",
+    "workerComposition": {
+      "farmers": 0.05,
+      "laborers": 0.70,
+      "craftsmen": 0.20,
+      "clerks": 0.05
+    }
   },
   {
     "id": "agriculture",
     "name": "Agriculture",
     "industry": "Resource Extraction",
-    "description": "Cultivation and harvesting of crops and plant-based raw materials."
+    "description": "Cultivation and harvesting of crops and plant-based raw materials.",
+    "workerComposition": {
+      "farmers": 0.70,
+      "laborers": 0.25,
+      "clerks": 0.05
+    }
   },
   {
     "id": "animal-husbandry",
     "name": "Animal Husbandry",
     "industry": "Resource Extraction",
-    "description": "Raising livestock to produce animal-based raw materials such as wool."
+    "description": "Raising livestock to produce animal-based raw materials such as wool.",
+    "workerComposition": {
+      "farmers": 0.75,
+      "laborers": 0.20,
+      "clerks": 0.05
+    }
   },
   {
     "id": "smelting",
     "name": "Smelting",
     "industry": "Primary Industrial Processing",
-    "description": "Extracting metal from ore using high-temperature furnaces."
+    "description": "Extracting metal from ore using high-temperature furnaces.",
+    "workerComposition": {
+      "laborers": 0.60,
+      "craftsmen": 0.25,
+      "clerks": 0.05,
+      "engineers": 0.10
+    }
   },
   {
     "id": "coking",
     "name": "Coking",
     "industry": "Primary Industrial Processing",
-    "description": "Heating coal in the absence of air to produce coke for metallurgy."
+    "description": "Heating coal in the absence of air to produce coke for metallurgy.",
+    "workerComposition": {
+      "laborers": 0.65,
+      "craftsmen": 0.20,
+      "clerks": 0.05,
+      "engineers": 0.10
+    }
   },
   {
     "id": "casting",
     "name": "Casting",
     "industry": "Primary Industrial Processing",
-    "description": "Forming metal parts by pouring molten metal into molds."
+    "description": "Forming metal parts by pouring molten metal into molds.",
+    "workerComposition": {
+      "laborers": 0.40,
+      "craftsmen": 0.45,
+      "clerks": 0.05,
+      "engineers": 0.10
+    }
   },
   {
     "id": "rolling",
     "name": "Rolling",
     "industry": "Primary Industrial Processing",
-    "description": "Shaping metal into beams, rails, and sheets using rolling mills."
+    "description": "Shaping metal into beams, rails, and sheets using rolling mills.",
+    "workerComposition": {
+      "laborers": 0.55,
+      "craftsmen": 0.25,
+      "clerks": 0.05,
+      "engineers": 0.15
+    }
   },
   {
     "id": "forging",
     "name": "Forging",
     "industry": "Primary Industrial Processing",
-    "description": "Shaping heated metal using hammers or presses."
+    "description": "Shaping heated metal using hammers or presses.",
+    "workerComposition": {
+      "laborers": 0.45,
+      "craftsmen": 0.40,
+      "clerks": 0.05,
+      "engineers": 0.10
+    }
+  },
+  {
+    "id": "steelmaking",
+    "name": "Steelmaking",
+    "industry": "Primary Industrial Processing",
+    "description": "Converting pig iron into steel using processes such as the Bessemer converter or open-hearth furnace.",
+    "workerComposition": {
+      "laborers": 0.45,
+      "craftsmen": 0.30,
+      "clerks": 0.05,
+      "engineers": 0.20
+    }
   },
   {
     "id": "machining",
     "name": "Machining",
     "industry": "Mechanical Manufacturing",
-    "description": "Precision cutting and shaping of metal parts using machine tools."
+    "description": "Precision cutting and shaping of metal parts using machine tools.",
+    "workerComposition": {
+      "laborers": 0.20,
+      "craftsmen": 0.55,
+      "clerks": 0.05,
+      "engineers": 0.20
+    }
   },
   {
     "id": "assembly",
     "name": "Assembly",
     "industry": "Mechanical Manufacturing",
-    "description": "Combining manufactured parts into finished mechanical products."
+    "description": "Combining manufactured parts into finished mechanical products.",
+    "workerComposition": {
+      "laborers": 0.40,
+      "craftsmen": 0.40,
+      "clerks": 0.10,
+      "engineers": 0.10
+    }
   },
   {
     "id": "electrical-assembly",
     "name": "Electrical Assembly",
     "industry": "Mechanical Manufacturing",
-    "description": "Assembly of electrical and electromechanical equipment and systems."
+    "description": "Assembly of electrical and electromechanical equipment and systems.",
+    "workerComposition": {
+      "laborers": 0.20,
+      "craftsmen": 0.40,
+      "clerks": 0.10,
+      "engineers": 0.30
+    }
+  },
+  {
+    "id": "precision-assembly",
+    "name": "Precision Assembly",
+    "industry": "Mechanical Manufacturing",
+    "description": "Carefully assembling delicate mechanical and electrical components requiring high precision and fine craftsmanship.",
+    "workerComposition": {
+      "laborers": 0.10,
+      "craftsmen": 0.60,
+      "clerks": 0.10,
+      "engineers": 0.20
+    }
   },
   {
     "id": "glassmaking",
     "name": "Glassmaking",
     "industry": "Material Processing",
-    "description": "Producing glass goods by melting silica and forming it into products."
+    "description": "Producing glass goods by melting silica and forming it into products.",
+    "workerComposition": {
+      "laborers": 0.30,
+      "craftsmen": 0.55,
+      "clerks": 0.05,
+      "engineers": 0.10
+    }
   },
   {
     "id": "spinning",
     "name": "Spinning",
     "industry": "Material Processing",
-    "description": "Transforming raw fibers such as cotton, wool, or flax into yarn."
+    "description": "Transforming raw fibers such as cotton, wool, or flax into yarn.",
+    "workerComposition": {
+      "laborers": 0.55,
+      "craftsmen": 0.30,
+      "clerks": 0.05,
+      "engineers": 0.10
+    }
   },
   {
     "id": "textile-processing",
     "name": "Textile Processing",
     "industry": "Material Processing",
-    "description": "Manufacturing textiles by weaving or knitting yarn into fabric."
+    "description": "Manufacturing textiles by weaving or knitting yarn into fabric.",
+    "workerComposition": {
+      "laborers": 0.50,
+      "craftsmen": 0.35,
+      "clerks": 0.05,
+      "engineers": 0.10
+    }
   },
   {
     "id": "papermaking",
     "name": "Papermaking",
     "industry": "Material Processing",
-    "description": "Producing paper from wood pulp and other plant fibers."
+    "description": "Producing paper from wood pulp and other plant fibers.",
+    "workerComposition": {
+      "laborers": 0.50,
+      "craftsmen": 0.30,
+      "clerks": 0.05,
+      "engineers": 0.15
+    }
   },
   {
     "id": "rope-making",
     "name": "Rope Making",
     "industry": "Material Processing",
-    "description": "Twisting plant fibers into rope and cordage."
+    "description": "Twisting plant fibers into rope and cordage.",
+    "workerComposition": {
+      "laborers": 0.65,
+      "craftsmen": 0.25,
+      "clerks": 0.05,
+      "engineers": 0.05
+    }
   },
   {
     "id": "chemical-processing",
     "name": "Chemical Processing",
     "industry": "Chemical Industry",
-    "description": "Industrial production and treatment of bulk chemical materials."
+    "description": "Industrial production and treatment of bulk chemical materials.",
+    "workerComposition": {
+      "laborers": 0.35,
+      "craftsmen": 0.25,
+      "clerks": 0.10,
+      "engineers": 0.30
+    }
   },
   {
     "id": "chemical-synthesis",
     "name": "Chemical Synthesis",
     "industry": "Chemical Industry",
-    "description": "Creation of new chemical compounds through controlled reactions."
+    "description": "Creation of new chemical compounds through controlled reactions.",
+    "workerComposition": {
+      "laborers": 0.20,
+      "craftsmen": 0.20,
+      "clerks": 0.10,
+      "engineers": 0.50
+    }
   },
   {
     "id": "food-processing",
     "name": "Food Processing",
     "industry": "Food Industry",
-    "description": "Industrial preparation and preservation of food products."
+    "description": "Industrial preparation and preservation of food products.",
+    "workerComposition": {
+      "laborers": 0.55,
+      "craftsmen": 0.25,
+      "clerks": 0.10,
+      "engineers": 0.10
+    }
   }
 ]
